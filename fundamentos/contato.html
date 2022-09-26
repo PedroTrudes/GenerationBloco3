@@ -23,20 +23,27 @@
       <form action="">
         <div class="container__form">
           <label for="emailContact">Email</label>
-          <input type="email" name="emailContact" id="emailContact" placeholder="Digite seu email@email"/>
+          <input type="email" onkeyup="validaEmail()" name="emailContact" id="emailContact" placeholder="Digite seu email@email"/>
+          <div class="txtErrorEmail"></div>
         </div>
         <div class="container__form">
             <label for="nomeContact">Nome Completo</label>
-            <input type="text" name="nomeContact" id="nomeContact" placeholder="Digite seu nome"/>
+            <input type="text" onkeyup="validaNome()" name="nomeContact" id="nomeContact" placeholder="Digite seu nome"/>
+            <div class="txtErroNome"></div>
         </div>
         <div class="container__form">
             <label for="textoContact">Nome Completo</label>
             <textarea name="textoContact" id="textoContact" cols="30" rows="10"></textarea>
+        </div>
+        <div class="container__form">
+           <button type="submit">Enviar</button>
         </div>
       </form>
     </section>
     <footer>
       <span>Desenvolvido por Pedro Trudes</span>
     </footer>
+
+    <script src="src/js/main.js"></script>
   </body>
 </html>
