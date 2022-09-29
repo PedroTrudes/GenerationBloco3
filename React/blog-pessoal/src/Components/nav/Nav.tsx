@@ -8,7 +8,7 @@ import {
 } from "@material-ui/core";
 import MenuIcon from "@material-ui/icons/Menu";
 
-function Nav() {
+function Navbar() {
   return (
     <>
       <div className="nav--container">
@@ -33,4 +33,4 @@ function Nav() {
   );
 }
 
-export default Nav;
+export default Navbar;
