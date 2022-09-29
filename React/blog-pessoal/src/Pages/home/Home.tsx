@@ -10,7 +10,7 @@ function Home(){
         <div>
             <Grid container spacing={0}  justifyContent='center' alignItems="stretch" >
                 <Grid item xs={12} sm={6} className="fundo">
-                <h1>Teste de Home com {nome} <FacebookIcon /></h1>
+                <h1 className="titulo">Teste de Home com {nome} <FacebookIcon /></h1>
                 </Grid>
                 <Grid item xs={12} sm={6} className="fundo">
                 <h2>Teste de material GRID</h2>
