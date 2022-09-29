@@ -1,11 +1,14 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Footer from './Components/footer/Footer';
+import Nav from './Components/nav/Nav'; 
+import Home from './Pages/home/Home';
 
 function App() {
   return (
-    <div className="container">
-      <h1>Pedro Trudes</h1>
+    <div>
+      <Nav />
+      <Home />
+      <Footer />
     </div>
   );
 }
