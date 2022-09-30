@@ -1,7 +1,6 @@
 import { Grid } from "@material-ui/core";
 import './home.css';
 import FacebookIcon from '@material-ui/icons/Facebook';
-import Postagens from "../postagem/Postagens";
 
 function Home(){
 
@@ -16,9 +15,6 @@ function Home(){
                 <h2>Teste de material GRID</h2>
                 </Grid>
             </Grid>
-            <div>
-                <Postagens />
-            </div>
         </div>
         
     );
